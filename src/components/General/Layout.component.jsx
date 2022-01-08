@@ -6,10 +6,9 @@ const LayoutStyles = 'layout'
 const ContentStyles = 'content'
 
 const Layout = ({ children }) => {
-  const { Header } = CIndex
+  const {} = CIndex
   return (
     <div className={LayoutStyles}>
-      <Header />
       <div className={ContentStyles}>{children}</div>
     </div>
   )
