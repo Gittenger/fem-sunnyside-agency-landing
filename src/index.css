@@ -4,16 +4,23 @@
 
 @layer base {
   @font-face {
-    font-family: 'Georama';
-    src: url('./assets/fonts/georama/Georama-Regular.ttf') format('truetype');
-    font-weight: 500;
+    font-family: 'Barlow';
+    src: url('./assets/fonts/barlow/Barlow-Regular.ttf') format('truetype');
+    font-weight: 600;
     font-style: normal;
   }
 
   @font-face {
-    font-family: 'Georama';
-    src: url('./assets/fonts/georama/Georama-Bold.ttf') format('truetype');
+    font-family: 'Fraunces';
+    src: url('./assets/fonts/fraunces/Fraunces-Bold.ttf') format('truetype');
     font-weight: 700;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: 'Fraunces';
+    src: url('./assets/fonts/fraunces/Fraunces-Black.ttf') format('truetype');
+    font-weight: 900;
     font-style: normal;
   }
 }

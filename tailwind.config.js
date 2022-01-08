@@ -17,7 +17,8 @@ module.exports = {
     extend: {
       colors: {},
       fontFamily: {
-        'custom': ['Georama'],
+        'heading': ['Fraunces'],
+        'body': ['Barlow'],
       },
       borderWidth: {
         '3': '3px',
