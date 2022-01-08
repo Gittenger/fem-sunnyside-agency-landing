@@ -7,6 +7,13 @@ module.exports = {
   },
   darkMode: 'class', // or 'media' or 'class'
   theme: {
+    colors: {
+      red: '#ad5a4f',
+      yellow: '#fad400',
+      blue: '#19536b',
+      'cyan-l': '#25564b',
+      'cyan-m': '#458c7e',
+    },
     extend: {
       colors: {},
       fontFamily: {
