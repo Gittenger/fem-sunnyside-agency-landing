@@ -1,21 +1,21 @@
 .parent {
-  top: 100px;
-  left: 30px;
-  width: 60px;
-  height: 60px;
+  top: 48px;
+  right: 48px;
+  width: 32px;
+  height: 36px;
 
   & > * {
-    width: 30px;
-    height: 8px;
-    top: 30px;
-    background: black;
+    width: 16px;
+    height: 4px;
+    top: 16px;
+    background: ghostwhite;
 
     &:first-child {
       left: 0px;
     }
 
     &:last-child {
-      left: 30px;
+      left: 16px;
     }
 
     &:first-child,
@@ -23,22 +23,22 @@
       &:before {
         transition-duration: 0.5s;
         position: absolute;
-        width: 30px;
-        height: 8px;
-        background-color: black;
+        width: 16px;
+        height: 4px;
+        background-color: ghostwhite;
         content: '';
-        top: -20px;
+        top: -12px;
         left: 0px;
       }
 
       &:after {
         transition-duration: 0.5s;
         position: absolute;
-        width: 30px;
-        height: 8px;
-        background-color: black;
+        width: 16px;
+        height: 4px;
+        background-color: ghostwhite;
         content: '';
-        top: 20px;
+        top: 12px;
         left: 0px;
       }
     }
@@ -53,20 +53,20 @@
   /* left */
   & > *:first-child {
     &:before {
-      transform: rotateZ(45deg) scaleX(1.4) translate(4px, 4px);
+      transform: rotateZ(45deg) scaleX(1.4) translate(2.8px, 2.8px);
     }
     &:after {
-      transform: rotateZ(-45deg) scaleX(1.4) translate(4px, -4px);
+      transform: rotateZ(-45deg) scaleX(1.4) translate(2.8px, -2.8px);
     }
   }
 
   /* right */
   & > *:last-child {
     &:before {
-      transform: rotateZ(-45deg) scaleX(1.4) translate(-4px, 4px);
+      transform: rotateZ(-45deg) scaleX(1.4) translate(-2.8px, 2.8px);
     }
     &:after {
-      transform: rotateZ(45deg) scaleX(1.4) translate(-4px, -4px);
+      transform: rotateZ(45deg) scaleX(1.4) translate(-2.8px, -2.8px);
     }
   }
 }
