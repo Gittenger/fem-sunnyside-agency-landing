@@ -16,6 +16,8 @@ module.exports = {
       'cyan-l': '#25564b',
       'cyan-m': '#458c7e',
       black: '#182430',
+      blackGr: '#215549',
+      blackBl: '#20586f',
     },
     extend: {
       colors: {},
