@@ -25,7 +25,7 @@ const Transform = () => {
       <h2 className="mt-16 text-3xl font-heading font-bold text-center">
         Transform your <br /> brand
       </h2>
-      <p className="mt-6 text-center px-8">
+      <p className="mt-6 text-center px-8 font-body">
         We are a full-service creative agency specializing in helping brands
         grow fast. Engage your clients through compelling visuals that do most
         of the marketing for you.
