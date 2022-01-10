@@ -13,7 +13,7 @@ const arbStyles = {
 }
 
 const HomePageContent = () => {
-  const { Header, Transform } = CIndex
+  const { Header, Transform, Stand } = CIndex
 
   useEffect(() => {
     window.scrollTo(0, 0)
@@ -25,6 +25,7 @@ const HomePageContent = () => {
         <Header />
 
         <Transform />
+        <Stand />
       </div>
     </>
   )
