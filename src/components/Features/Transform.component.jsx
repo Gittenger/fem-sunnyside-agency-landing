@@ -1,5 +1,6 @@
 import React from 'react'
 import images from '../../assets/img-index.js'
+import CIndex from '../components.index.js'
 
 const arbStyles = {
   container: {
@@ -8,6 +9,7 @@ const arbStyles = {
 }
 
 const Transform = () => {
+  const { BtnUline } = CIndex
   const {
     img: {
       mobile: { transformMob },
@@ -28,9 +30,7 @@ const Transform = () => {
         grow fast. Engage your clients through compelling visuals that do most
         of the marketing for you.
       </p>
-      <button className="mt-6 mb-10 font-heading uppercase underline">
-        Learn More
-      </button>
+      <BtnUline color="yellow" />
     </div>
   )
 }
