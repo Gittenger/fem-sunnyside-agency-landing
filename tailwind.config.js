@@ -13,6 +13,7 @@ module.exports = {
       blue: '#19536b',
       'cyan-l': '#25564b',
       'cyan-m': '#458c7e',
+      black: '#182430',
     },
     extend: {
       colors: {},
