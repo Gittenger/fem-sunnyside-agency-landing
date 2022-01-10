@@ -23,20 +23,20 @@
 }
 
 .yellow {
-  background: theme('colors.yellow');
+  background: theme('colors.yellowLt');
 
   &:before,
   &:after {
-    background: theme('colors.yellow');
+    background: theme('colors.yellowLt');
   }
 }
 
 .red {
-  background: theme('colors.red');
+  background: theme('colors.redLt');
 
   &:before,
   &:after {
-    background: theme('colors.red');
+    background: theme('colors.redLt');
   }
 }
 

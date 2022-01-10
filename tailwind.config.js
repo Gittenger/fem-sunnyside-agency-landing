@@ -9,7 +9,9 @@ module.exports = {
   theme: {
     colors: {
       red: '#ad5a4f',
+      redLt: '#ffddd5',
       yellow: '#fad400',
+      yellowLt: '#fef2b6',
       blue: '#19536b',
       'cyan-l': '#25564b',
       'cyan-m': '#458c7e',
