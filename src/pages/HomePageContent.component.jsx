@@ -3,8 +3,15 @@ import React, { useEffect } from 'react'
 import CIndex from '../components/components.index.js'
 
 const HomePageContent = () => {
-  const { Header, Transform, Stand, Graphic, Photography, Testimonials } =
-    CIndex
+  const {
+    Header,
+    Transform,
+    Stand,
+    Graphic,
+    Photography,
+    Testimonials,
+    PicGrid,
+  } = CIndex
 
   useEffect(() => {
     window.scrollTo(0, 0)
@@ -19,6 +26,7 @@ const HomePageContent = () => {
         <Graphic />
         <Photography />
         <Testimonials />
+        <PicGrid />
       </div>
     </>
   )
