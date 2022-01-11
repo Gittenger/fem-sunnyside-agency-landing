@@ -25,6 +25,8 @@ module.exports = {
       black: '#182430',
       blackGr: '#215549',
       blackBl: '#20586f',
+      greyLt: '#abaeb3',
+      greyMd: '#585a59',
     },
     extend: {
       colors: {},

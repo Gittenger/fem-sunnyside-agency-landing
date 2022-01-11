@@ -2,12 +2,23 @@ import React from 'react'
 import CIndex from '../components.index.js'
 import images from '../../assets/img-index.js'
 
+const arbStyles = {
+  heading: {
+    letterSpacing: '.2em',
+  },
+}
+
 const Testimonials = () => {
   const { UserTest } = CIndex
 
   return (
-    <div>
-      <h3>Client Testimonials</h3>
+    <div className="flex flex-col justify-center items-center pt-14">
+      <h3
+        className="text-greyLt text-md font-black font-heading uppercase pb-14"
+        style={arbStyles.heading}
+      >
+        Client Testimonials
+      </h3>
 
       <UserTest user={userData.emily} />
       <UserTest user={userData.thomas} />
