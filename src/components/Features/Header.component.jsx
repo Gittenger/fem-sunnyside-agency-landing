@@ -1,7 +1,6 @@
 import React from 'react'
 import CIndex from '../components.index.js'
 import images from '../../assets/img-index.js'
-import styles from './styles/Header.module.css'
 
 const arbStyles = {
   logo: {
