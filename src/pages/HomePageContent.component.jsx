@@ -11,6 +11,7 @@ const HomePageContent = () => {
     Photography,
     Testimonials,
     PicGrid,
+    Footer,
   } = CIndex
 
   useEffect(() => {
@@ -27,6 +28,7 @@ const HomePageContent = () => {
         <Photography />
         <Testimonials />
         <PicGrid />
+        <Footer />
       </div>
     </>
   )

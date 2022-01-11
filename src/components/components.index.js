@@ -1,3 +1,4 @@
+import Footer from "./Features/Footer.component.jsx"
 import Graphic from "./Features/Graphic.component.jsx"
 import Header from "./Features/Header.component.jsx"
 import Photography from "./Features/Photography.component.jsx"
@@ -10,7 +11,7 @@ import HamburgerMenu from "./General/HamburgerMenu.component.jsx"
 import Layout from "./General/Layout.component.jsx"
 import UserTest from "./General/UserTest.component.jsx"
 export const CIndex = {
-		Graphic,Header,Photography,PicGrid,Stand,Testimonials,Transform,BtnUline,HamburgerMenu,Layout,UserTest
+		Footer,Graphic,Header,Photography,PicGrid,Stand,Testimonials,Transform,BtnUline,HamburgerMenu,Layout,UserTest
 	}
 	export default CIndex
 	
