@@ -1,50 +1,75 @@
-.parent {
+.btnUline {
   & > *:last-child {
     position: relative;
+    transition: all 300ms;
 
-    &:before {
+    &:before,
+    &:after {
+      transition: all 300ms;
       position: absolute;
       border-radius: 6px;
       content: '';
       height: theme('spacing[1.5]');
       width: 20px;
+    }
+
+    &:before {
       left: -6px;
     }
 
     &:after {
-      position: absolute;
-      border-radius: 6px;
-      content: '';
-      height: theme('spacing.[1.5]');
-      width: 20px;
       right: -6px;
     }
   }
 }
 
 .yellow {
-  background: theme('colors.yellowLt');
-
-  &:before,
-  &:after {
+  & > *:last-child {
     background: theme('colors.yellowLt');
+
+    &:before,
+    &:after {
+      background: theme('colors.yellowLt');
+    }
+  }
+
+  &:hover > *:last-child {
+    background: theme('colors.yellow');
+
+    &:before,
+    &:after {
+      background: theme('colors.yellow');
+    }
   }
 }
 
 .red {
-  background: theme('colors.redLt');
-
-  &:before,
-  &:after {
+  & > *:last-child {
     background: theme('colors.redLt');
+
+    &:before,
+    &:after {
+      background: theme('colors.redLt');
+    }
+  }
+
+  &:hover > *:last-child {
+    background: theme('colors.red');
+
+    &:before,
+    &:after {
+      background: theme('colors.red');
+    }
   }
 }
 
 .colorDefault {
-  background: blue;
-
-  &:before,
-  &:after {
+  & > *:last-child {
     background: blue;
+
+    &:before,
+    &:after {
+      background: green;
+    }
   }
 }
