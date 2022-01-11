@@ -1,0 +1,23 @@
+.bg {
+  background-position: top 0 center;
+  background-size: cover;
+  height: 42rem;
+
+  @media screen(xs) {
+    background-position: top -20px center;
+    height: 48rem;
+  }
+
+  @media screen(sm) {
+    background-position: top -20px center;
+    height: 60rem;
+  }
+}
+
+.bgGraphic {
+  background-image: url('../../../assets/img/mobile/image-graphic-design.jpg');
+}
+
+.bgPhoto {
+  background-image: url('../../../assets/img/mobile/image-photography.jpg');
+}
