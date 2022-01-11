@@ -1,11 +1,7 @@
 import React from 'react'
-import images from '../../assets/img-index.js'
-import CIndex from '../components.index.js'
 import styles from './styles/Graphic.module.css'
 
 const Photography = () => {
-  const {} = CIndex
-
   return (
     <div
       className={`relative w-full flex flex-col justify-center items-center text-blackBl ${styles.bg} ${styles.bgPhoto}`}

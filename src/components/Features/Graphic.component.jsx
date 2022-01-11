@@ -1,10 +1,7 @@
 import React from 'react'
-import CIndex from '../components.index.js'
 import styles from './styles/Graphic.module.css'
 
 const Graphic = () => {
-  const {} = CIndex
-
   return (
     <div
       className={`relative w-full flex flex-col justify-center items-center text-blackGr ${styles.bg} ${styles.bgGraphic}`}
