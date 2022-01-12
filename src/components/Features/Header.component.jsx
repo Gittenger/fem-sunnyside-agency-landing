@@ -17,6 +17,7 @@ const Header = () => {
   const {
     img: {
       mobile: { headerMobile },
+      desktop: { headerDesk },
     },
     svg: { arrowDown, logoImg },
   } = images
@@ -24,7 +25,10 @@ const Header = () => {
   return (
     <>
       <div className="w-full z-0">
-        <img src={headerMobile} alt="" />
+        <picture>
+          <source srcSet={headerDesk} media="(min-width: 750px)" />
+          <img src={headerMobile} alt="" />
+        </picture>
       </div>
       <img
         src={logoImg}
@@ -36,14 +40,18 @@ const Header = () => {
       <HamburgerMenu className="z-50 sm:hidden" />
       <NavDesk />
 
-      <div className="absolute grid place-content-center place-items-center pt-36 xs:pt-52 sm:pt-64 w-full">
+      <div className="absolute grid place-content-center place-items-center pt-36 xs:pt-52 sm:pt-64 w-full sm2:pt-40 md:pt-60">
         <h1
-          className="text-5xl uppercase tracking-widest leading-snug font-heading font-black text-center xs:px-14 sm:px-32"
+          className="text-5xl uppercase tracking-widest leading-snug font-heading font-black text-center xs:px-14 sm:px-32 sm2:px-20"
           style={arbStyles.headerText}
         >
           We are Creatives
         </h1>
-        <img src={arrowDown} alt="" className="text-center self-center mt-8" />
+        <img
+          src={arrowDown}
+          alt=""
+          className="text-center self-center mt-8 md:mt-20"
+        />
       </div>
     </>
   )

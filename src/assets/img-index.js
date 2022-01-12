@@ -1,6 +1,7 @@
 import React from 'react'
 
 import headerMobile from './img/mobile/image-header.jpg'
+import headerDesk from './img/desktop/image-header.jpg'
 import transformMob from './img/mobile/image-transform.jpg'
 import standMob from './img/mobile/image-stand-out.jpg'
 import graphicMob from './img/mobile/image-graphic-design.jpg'
@@ -37,6 +38,9 @@ export const images = {
       milkMobile,
       orangeMobile,
       sugarMobile,
+    },
+    desktop: {
+      headerDesk,
     },
   },
   svg: {
