@@ -1,0 +1,12 @@
+.navDesk {
+  top: 3.2rem;
+
+  & > ul > li {
+    cursor: pointer;
+
+    &:hover {
+      transition-duration: 200ms;
+      color: theme('colors.blackBl');
+    }
+  }
+}

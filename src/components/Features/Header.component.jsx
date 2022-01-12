@@ -13,7 +13,7 @@ const arbStyles = {
 }
 
 const Header = () => {
-  const { HamburgerMenu } = CIndex
+  const { HamburgerMenu, NavDesk } = CIndex
   const {
     img: {
       mobile: { headerMobile },
@@ -33,7 +33,8 @@ const Header = () => {
         style={arbStyles.logo}
       />
 
-      <HamburgerMenu className="z-50" />
+      <HamburgerMenu className="z-50 sm:hidden" />
+      <NavDesk />
 
       <div className="absolute grid place-content-center place-items-center pt-36 xs:pt-52 sm:pt-64 w-full">
         <h1

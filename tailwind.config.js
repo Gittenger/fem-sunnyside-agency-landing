@@ -22,6 +22,7 @@ module.exports = {
       blue: '#19536b',
       'cyan-l': '#25564b',
       'cyan-m': '#90d4c5',
+      'blue-hover': '#6fcfff',
       black: '#182430',
       blackGr: '#215549',
       blackBl: '#20586f',
