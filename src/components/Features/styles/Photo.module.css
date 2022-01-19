@@ -1,0 +1,7 @@
+.bgImg {
+  background-image: url('../../../assets/img/mobile/image-photography.jpg');
+
+  @media screen(sm2) {
+    background-image: url('../../../assets/img/desktop/image-photography.jpg');
+  }
+}
