@@ -40,6 +40,9 @@ module.exports = {
       borderWidth: {
         '3': '3px',
       },
+      spacing: {
+        '100': '28rem',
+      },
     },
   },
   variants: {
