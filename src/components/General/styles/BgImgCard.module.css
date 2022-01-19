@@ -1,0 +1,24 @@
+.bg {
+  background-position: top 0 center;
+  background-size: cover;
+  height: 42rem;
+
+  @media screen(xs) {
+    background-position: top -20px center;
+    height: 48rem;
+  }
+
+  @media screen(sm) {
+    background-position: top -20px center;
+    height: 60rem;
+  }
+
+  @media screen(sm2) {
+    background-position: top center;
+    height: 36rem;
+  }
+
+  @media screen(xl) {
+    height: 39rem;
+  }
+}
