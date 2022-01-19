@@ -22,10 +22,14 @@ const HomePageContent = () => {
     <>
       <div className="w-full grid justify-items-center">
         <Header />
-        <Transform />
-        <Stand />
-        <Graphic />
-        <Photography />
+        <div className="grid grid-cols-1 sm2:grid-rows-2">
+          <Transform />
+          <Stand />
+        </div>
+        <div className="grid grid-cols-1 sm2:grid-cols-2 w-full">
+          <Graphic />
+          <Photography />
+        </div>
         <Testimonials />
         <PicGrid />
         <Footer />
