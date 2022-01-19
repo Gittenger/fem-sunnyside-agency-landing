@@ -7,12 +7,13 @@ import PicGrid from "./Features/PicGrid.component.jsx"
 import Stand from "./Features/Stand.component.jsx"
 import Testimonials from "./Features/Testimonials.component.jsx"
 import Transform from "./Features/Transform.component.jsx"
+import BgImgCard from "./General/BgImgCard.component.jsx"
 import BtnUline from "./General/BtnUline.component.jsx"
 import HamburgerMenu from "./General/HamburgerMenu.component.jsx"
 import Layout from "./General/Layout.component.jsx"
 import UserTest from "./General/UserTest.component.jsx"
 export const CIndex = {
-		Footer,Graphic,Header,NavDesk,Photography,PicGrid,Stand,Testimonials,Transform,BtnUline,HamburgerMenu,Layout,UserTest
+		Footer,Graphic,Header,NavDesk,Photography,PicGrid,Stand,Testimonials,Transform,BgImgCard,BtnUline,HamburgerMenu,Layout,UserTest
 	}
 	export default CIndex
 	
