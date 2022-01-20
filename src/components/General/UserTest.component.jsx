@@ -18,7 +18,7 @@ const UserTest = ({ user }) => {
         className="rounded-full"
         style={arbStyles.img}
       />
-      <p className="text-center px-5 pt-5 xl:px-24 font-body text-greyMd">
+      <p className="text-center px-6 pb-6 sm2:pb-0 xs:px-14 sm:px-20 sm2:px-3 pt-5 xl:px-24 font-body text-greyMd">
         {user.testimonial}
       </p>
       <h3 className="font-black font-heading text-black font-md">

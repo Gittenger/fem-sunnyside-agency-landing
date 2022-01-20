@@ -20,7 +20,7 @@ const Testimonials = () => {
         Client Testimonials
       </h3>
 
-      <div className="flex flex-col sm2:flex-row space-x-3 justify-center items-center px-16 md:px-24">
+      <div className="flex flex-col sm2:flex-row space-y-24 sm2:space-y-0 sm2:space-x-3 justify-center items-center px-16 md:px-24">
         <UserTest user={userData.emily} />
         <UserTest user={userData.thomas} />
         <UserTest user={userData.jennie} />

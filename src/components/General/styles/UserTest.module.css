@@ -1,5 +1,9 @@
 .grid {
-  grid-template-rows: 80px 185px 25px 20px;
+  grid-template-rows: 80px 1fr 25px 20px;
+
+  @media screen(sm2) {
+    grid-template-rows: 80px 190px 25px 20px;
+  }
 
   @media screen(lg) {
     grid-template-rows: 80px 150px 25px 20px;
