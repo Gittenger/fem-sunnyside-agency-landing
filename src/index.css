@@ -5,7 +5,7 @@
 @layer base {
   @font-face {
     font-family: 'Barlow';
-    src: url('./assets/fonts/barlow/Barlow-Regular.ttf') format('truetype');
+    src: url('./assets/fonts/barlow/Barlow-Medium.ttf') format('truetype');
     font-weight: 600;
     font-style: normal;
   }
