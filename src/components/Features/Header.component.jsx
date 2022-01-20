@@ -40,7 +40,7 @@ const Header = () => {
       />
 
       <NavProvider>
-        <HamburgerMenu className="z-50 sm:hidden" />
+        <HamburgerMenu className="absolute z-50 sm:hidden" />
         <NavDesk />
         <MobileNav />
       </NavProvider>
