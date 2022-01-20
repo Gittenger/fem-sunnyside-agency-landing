@@ -12,7 +12,7 @@ const Testimonials = () => {
   const { UserTest } = CIndex
 
   return (
-    <div className="flex flex-col justify-center items-center pt-14">
+    <div className="pt-14 flex flex-col justify-center items-center pb-32 lg:pb-48 xl:pb-56">
       <h3
         className="text-greyLt text-md font-black font-heading uppercase pb-14"
         style={arbStyles.heading}
@@ -20,9 +20,11 @@ const Testimonials = () => {
         Client Testimonials
       </h3>
 
-      <UserTest user={userData.emily} />
-      <UserTest user={userData.thomas} />
-      <UserTest user={userData.jennie} />
+      <div className="flex flex-col sm2:flex-row space-x-3 justify-center items-center px-16 md:px-24">
+        <UserTest user={userData.emily} />
+        <UserTest user={userData.thomas} />
+        <UserTest user={userData.jennie} />
+      </div>
     </div>
   )
 }

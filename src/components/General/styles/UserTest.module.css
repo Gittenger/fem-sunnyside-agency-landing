@@ -1,0 +1,7 @@
+.grid {
+  grid-template-rows: 80px 185px 25px 20px;
+
+  @media screen(lg) {
+    grid-template-rows: 80px 150px 25px 20px;
+  }
+}
