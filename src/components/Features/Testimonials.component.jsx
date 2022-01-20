@@ -12,7 +12,7 @@ const Testimonials = () => {
   const { UserTest } = CIndex
 
   return (
-    <div className="pt-14 flex flex-col justify-center items-center pb-32 lg:pb-48 xl:pb-56">
+    <div className="pt-14 lg:pt-20 xl:pt-32 flex flex-col justify-center items-center pb-32 lg:pb-48 xl:pb-56">
       <h3
         className="text-greyLt text-md font-black font-heading uppercase pb-14"
         style={arbStyles.heading}
