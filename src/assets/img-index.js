@@ -14,6 +14,10 @@ import coneMobile from './img/mobile/image-gallery-cone.jpg'
 import milkMobile from './img/mobile/image-gallery-milkbottles.jpg'
 import orangeMobile from './img/mobile/image-gallery-orange.jpg'
 import sugarMobile from './img/mobile/image-gallery-sugar-cubes.jpg'
+import coneDesk from './img/desktop/image-gallery-cone.jpg'
+import milkDesk from './img/desktop/image-gallery-milkbottles.jpg'
+import orangeDesk from './img/desktop/image-gallery-orange.jpg'
+import sugarDesk from './img/desktop/image-gallery-sugar-cubes.jpg'
 import logoImg from './icons/logo.svg'
 import { ReactComponent as LogoFill } from './icons/logo.svg'
 import { ReactComponent as Facebook } from './icons/icon-facebook.svg'
@@ -41,6 +45,10 @@ export const images = {
     },
     desktop: {
       headerDesk,
+      coneDesk,
+      milkDesk,
+      orangeDesk,
+      sugarDesk,
     },
   },
   svg: {
