@@ -1,0 +1,25 @@
+.container {
+  display: none;
+  top: 150px;
+  background-color: theme('colors.white');
+  width: calc(100% - 56px);
+  height: 500px;
+
+  &:before {
+    position: absolute;
+    content: '';
+    top: 65px;
+    right: 0;
+    height: 0;
+    width: 0;
+    border-right: 18px solid theme('colors.white');
+    border-left: 18px solid transparent;
+    border-top: 18px solid transparent;
+    border-bottom: 18px solid theme('colors.white');
+    transform: translateX(0px) translateY(-100px);
+  }
+}
+
+.active {
+  display: block;
+}

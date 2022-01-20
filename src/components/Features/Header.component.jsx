@@ -1,10 +1,12 @@
 import React from 'react'
 import CIndex from '../components.index.js'
 import images from '../../assets/img-index.js'
+import NavProvider from '../../contexts/NavProvider.jsx'
 
 const arbStyles = {
   logo: {
     top: '3.3rem',
+    left: '28px',
   },
   headerText: {
     color: '#fffff3',
@@ -13,7 +15,7 @@ const arbStyles = {
 }
 
 const Header = () => {
-  const { HamburgerMenu, NavDesk } = CIndex
+  const { HamburgerMenu, NavDesk, MobileNav } = CIndex
   const {
     img: {
       mobile: { headerMobile },
@@ -33,12 +35,15 @@ const Header = () => {
       <img
         src={logoImg}
         alt=""
-        className="absolute top-14 left-8 z-50"
+        className="absolute top-14 z-50"
         style={arbStyles.logo}
       />
 
-      <HamburgerMenu className="z-50 sm:hidden" />
-      <NavDesk />
+      <NavProvider>
+        <HamburgerMenu className="z-50 sm:hidden" />
+        <NavDesk />
+        <MobileNav />
+      </NavProvider>
 
       <div className="absolute grid place-content-center place-items-center pt-36 xs:pt-52 sm:pt-64 w-full sm2:pt-40 md:pt-60">
         <h1

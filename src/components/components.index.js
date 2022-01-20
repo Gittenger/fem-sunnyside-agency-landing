@@ -11,9 +11,10 @@ import BgImgCard from "./General/BgImgCard.component.jsx"
 import BtnUline from "./General/BtnUline.component.jsx"
 import HamburgerMenu from "./General/HamburgerMenu.component.jsx"
 import Layout from "./General/Layout.component.jsx"
+import MobileNav from "./General/MobileNav.component.jsx"
 import UserTest from "./General/UserTest.component.jsx"
 export const CIndex = {
-		Footer,Graphic,Header,NavDesk,Photography,PicGrid,Stand,Testimonials,Transform,BgImgCard,BtnUline,HamburgerMenu,Layout,UserTest
+		Footer,Graphic,Header,NavDesk,Photography,PicGrid,Stand,Testimonials,Transform,BgImgCard,BtnUline,HamburgerMenu,Layout,MobileNav,UserTest
 	}
 	export default CIndex
 	
