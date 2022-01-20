@@ -31,5 +31,11 @@
     background: theme('colors.yellow');
     border-radius: 2rem;
     font-family: theme('fontFamily.heading');
+    transition: all 0.3s;
+
+    &:hover {
+      background-color: theme('colors.black');
+      color: theme('colors.white');
+    }
   }
 }
