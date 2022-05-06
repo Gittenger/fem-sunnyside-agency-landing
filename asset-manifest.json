@@ -1,0 +1,38 @@
+{
+  "files": {
+    "main.css": "/fem-sunnyside-agency-landing/static/css/main.550f0747.chunk.css",
+    "main.js": "/fem-sunnyside-agency-landing/static/js/main.ba2a66a6.chunk.js",
+    "main.js.map": "/fem-sunnyside-agency-landing/static/js/main.ba2a66a6.chunk.js.map",
+    "runtime-main.js": "/fem-sunnyside-agency-landing/static/js/runtime-main.18d2eb19.js",
+    "runtime-main.js.map": "/fem-sunnyside-agency-landing/static/js/runtime-main.18d2eb19.js.map",
+    "static/js/2.967bcac1.chunk.js": "/fem-sunnyside-agency-landing/static/js/2.967bcac1.chunk.js",
+    "static/js/2.967bcac1.chunk.js.map": "/fem-sunnyside-agency-landing/static/js/2.967bcac1.chunk.js.map",
+    "index.html": "/fem-sunnyside-agency-landing/index.html",
+    "static/css/main.550f0747.chunk.css.map": "/fem-sunnyside-agency-landing/static/css/main.550f0747.chunk.css.map",
+    "static/js/2.967bcac1.chunk.js.LICENSE.txt": "/fem-sunnyside-agency-landing/static/js/2.967bcac1.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/fem-sunnyside-agency-landing/static/media/Fraunces-Bold.e6f206e3.ttf",
+    "static/media/icon-arrow-down.979ef07a.svg": "/fem-sunnyside-agency-landing/static/media/icon-arrow-down.979ef07a.svg",
+    "static/media/icon-facebook.101bd07e.svg": "/fem-sunnyside-agency-landing/static/media/icon-facebook.101bd07e.svg",
+    "static/media/icon-instagram.7d97118a.svg": "/fem-sunnyside-agency-landing/static/media/icon-instagram.7d97118a.svg",
+    "static/media/icon-pinterest.fd8b84da.svg": "/fem-sunnyside-agency-landing/static/media/icon-pinterest.fd8b84da.svg",
+    "static/media/icon-twitter.23df5d42.svg": "/fem-sunnyside-agency-landing/static/media/icon-twitter.23df5d42.svg",
+    "static/media/image-gallery-cone.461ff421.jpg": "/fem-sunnyside-agency-landing/static/media/image-gallery-cone.461ff421.jpg",
+    "static/media/image-gallery-cone.fb0906a7.jpg": "/fem-sunnyside-agency-landing/static/media/image-gallery-cone.fb0906a7.jpg",
+    "static/media/image-gallery-milkbottles.df1d9d84.jpg": "/fem-sunnyside-agency-landing/static/media/image-gallery-milkbottles.df1d9d84.jpg",
+    "static/media/image-gallery-orange.373d43f1.jpg": "/fem-sunnyside-agency-landing/static/media/image-gallery-orange.373d43f1.jpg",
+    "static/media/image-gallery-orange.49f4212b.jpg": "/fem-sunnyside-agency-landing/static/media/image-gallery-orange.49f4212b.jpg",
+    "static/media/image-gallery-sugar-cubes.09b72f4f.jpg": "/fem-sunnyside-agency-landing/static/media/image-gallery-sugar-cubes.09b72f4f.jpg",
+    "static/media/image-gallery-sugar-cubes.fefc3841.jpg": "/fem-sunnyside-agency-landing/static/media/image-gallery-sugar-cubes.fefc3841.jpg",
+    "static/media/Graphic.module.css": "/fem-sunnyside-agency-landing/static/media/image-graphic-design.7ac8bdf0.jpg",
+    "static/media/image-header.49b52ffa.jpg": "/fem-sunnyside-agency-landing/static/media/image-header.49b52ffa.jpg",
+    "static/media/image-header.9167cda0.jpg": "/fem-sunnyside-agency-landing/static/media/image-header.9167cda0.jpg",
+    "static/media/Photo.module.css": "/fem-sunnyside-agency-landing/static/media/image-photography.26df83b3.jpg",
+    "static/media/logo.4271b899.svg": "/fem-sunnyside-agency-landing/static/media/logo.4271b899.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.18d2eb19.js",
+    "static/js/2.967bcac1.chunk.js",
+    "static/css/main.550f0747.chunk.css",
+    "static/js/main.ba2a66a6.chunk.js"
+  ]
+}
