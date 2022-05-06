@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/fem-sunnyside-agency-landing/static/css/main.550f0747.chunk.css",
+    "main.css": "/fem-sunnyside-agency-landing/static/css/main.c829cb45.chunk.css",
     "main.js": "/fem-sunnyside-agency-landing/static/js/main.ba2a66a6.chunk.js",
     "main.js.map": "/fem-sunnyside-agency-landing/static/js/main.ba2a66a6.chunk.js.map",
     "runtime-main.js": "/fem-sunnyside-agency-landing/static/js/runtime-main.18d2eb19.js",
@@ -8,7 +8,7 @@
     "static/js/2.967bcac1.chunk.js": "/fem-sunnyside-agency-landing/static/js/2.967bcac1.chunk.js",
     "static/js/2.967bcac1.chunk.js.map": "/fem-sunnyside-agency-landing/static/js/2.967bcac1.chunk.js.map",
     "index.html": "/fem-sunnyside-agency-landing/index.html",
-    "static/css/main.550f0747.chunk.css.map": "/fem-sunnyside-agency-landing/static/css/main.550f0747.chunk.css.map",
+    "static/css/main.c829cb45.chunk.css.map": "/fem-sunnyside-agency-landing/static/css/main.c829cb45.chunk.css.map",
     "static/js/2.967bcac1.chunk.js.LICENSE.txt": "/fem-sunnyside-agency-landing/static/js/2.967bcac1.chunk.js.LICENSE.txt",
     "static/media/index.css": "/fem-sunnyside-agency-landing/static/media/Fraunces-Bold.e6f206e3.ttf",
     "static/media/icon-arrow-down.979ef07a.svg": "/fem-sunnyside-agency-landing/static/media/icon-arrow-down.979ef07a.svg",
@@ -32,7 +32,7 @@
   "entrypoints": [
     "static/js/runtime-main.18d2eb19.js",
     "static/js/2.967bcac1.chunk.js",
-    "static/css/main.550f0747.chunk.css",
+    "static/css/main.c829cb45.chunk.css",
     "static/js/main.ba2a66a6.chunk.js"
   ]
 }
